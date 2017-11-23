@@ -1,0 +1,34 @@
+.banner__text {
+    color: white;
+    text-align: center;
+    padding-top: 8em;
+    background: linear-gradient(rgba(90, 35, 5, 0.45), rgba(0, 0, 0, 0.6)), url("../../public/images/exercise3.jpg"); 
+    // no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 300px;
+    z-index: 0;
+    button {
+        border: none;
+        padding: .5em 1em;
+        border-radius: 10px;
+        background: linear-gradient(141deg, #f09825, #f28219);
+        &:hover {
+            background: linear-gradient(141deg, #f06c25, #f28219);
+        }
+    }
+}
+
+
+@media only screen and (min-width: $desktop-breakpoint) {
+    .banner__text {
+        height: 500px;
+        padding-top: 14em;
+        background-position: center left;
+        h1 {
+            font-size: 3em;
+        }
+    }
+}
