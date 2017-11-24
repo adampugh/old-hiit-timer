@@ -3,9 +3,7 @@ import React from "react";
 class NavigationBar extends React.Component {
 
     handleHamburgerClick() {
-        $(".menu").slideToggle("slow", () => {
-            console.log("slid");
-        });
+        $(".menu").slideToggle("slow");
     }
 
 
@@ -20,6 +18,10 @@ class NavigationBar extends React.Component {
                         <div className="navigation-bar__links">
                             <label className="hamburger-icon" onClick={this.handleHamburgerClick}>&#9776;</label>
                             <div className="menu">
+                                <a href="#">Sign Up</a>
+                                <a href="#">Login</a>
+                            </div>
+                            <div className="menu--desktop">
                                 <a href="#">Sign Up</a>
                                 <a href="#">Login</a>
                             </div>

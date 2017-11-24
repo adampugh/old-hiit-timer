@@ -24,6 +24,10 @@
     cursor: pointer;
 }
 
+.menu--desktop {
+    display: none;
+}
+
 .menu {
     text-align: center;
     width: 100%;
@@ -40,6 +44,7 @@
         &:hover {
             background: grey;
             color: white;
+            // color: #f06c25;
         }
     }
 }
@@ -60,16 +65,20 @@
         display: none;
     }
     .menu {
-        // text-align: right;
+        display: none;
+    }
+    .menu--desktop {
         display: inline;
         a {
+            color: grey;
             display: inline;
             border: none;
             padding-right: 2em;
             margin: 0.67em 0;
+            text-decoration: none;
             &:hover {
                 background: none;
-                color: rgb(79, 79, 79);
+                color: #f06c25;
             }
         }
     }

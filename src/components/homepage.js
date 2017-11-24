@@ -2,6 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom";
 import NavigationBar from "./navigation-bar";
 import Banner from "./banner";
+import HomeContent from "./homecontent";
+import Footer from "./footer";
+
 
 export default class LandingPage extends React.Component {
     render() {
@@ -9,7 +12,8 @@ export default class LandingPage extends React.Component {
             <div>
                 <NavigationBar />
                 <Banner />
-            
+                <HomeContent />
+                <Footer />
 
             
             </div>
