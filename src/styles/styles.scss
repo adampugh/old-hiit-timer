@@ -1,7 +1,9 @@
 @import "./base/settings";
 @import "./base/base";
 @import "./base/mixins";
-@import "./components/navigation-bar";
-@import "./components/banner";
-@import "./components/homecontent";
-@import "./components/footer";
+@import "./views/navbar";
+@import "./views/footer";
+@import "./views/homepage/banner";
+@import "./views/homepage/homecontent";
+@import "./views/workoutspage/workoutspage-banner";
+@import "./views/workoutspage/workouts";

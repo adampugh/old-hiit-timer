@@ -1,0 +1,45 @@
+.banner__text {
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+    padding-top: 6em;
+    background:   url("../../public/images/white.jpg") no-repeat bottom left; 
+    // bottom left
+    // linear-gradient(rgba(90, 35, 5, 0.45), rgba(255, 255, 255, 0.6)),
+    // no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-shadow: 3px 3px 15px #1a1a1a;
+    outline-color: transparent;
+    height: 280px;
+}
+
+
+.orange-btn {
+    border: none;
+    color: white;
+    font-size: 1.5em;
+    padding: .8em 1.5em;
+    border-radius: 40px;
+    background: linear-gradient(141deg, #f09825, #f28219);
+    @include boxshadow;
+    &:hover {
+        background: linear-gradient(141deg, #f06c25, #f28219);
+    }
+}
+
+
+
+@media only screen and (min-width: $desktop-breakpoint) {
+    .banner__text {
+        height: 450px;
+        padding-top: 14em;
+        // background-position: bottom left;
+        background-position: bottom left;
+        h1 {
+            font-size: 3em;
+        }
+    }
+}

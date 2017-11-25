@@ -1,0 +1,47 @@
+.workouts {
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 6em;
+    h1 {
+        margin-bottom: 1em;
+    }
+}
+
+
+
+.workout__box {
+    box-sizing: border-box;
+    @include boxshadow;
+    color: #f7f7f7;
+    height: 200px;
+    padding: 1.5em;
+    margin: 1em 1em;
+    // background: linear-gradient(to bottom right, #303030, rgb(28, 28, 28));
+    background: linear-gradient(141deg, #f09825, #f28219);
+    border-radius: 10px;
+    cursor: pointer;
+    &:hover {
+        background: linear-gradient(141deg, #f06c25, #f28219);
+    }
+
+
+    i {
+        padding-top: .1em;
+        font-size: 3em;
+    }
+}
+
+.workout__links {
+    text-align: right;
+    margin: 0 1em;
+    i {
+        font-size: 2em;
+        padding-left: .5em;
+        color: grey;
+        cursor: pointer;
+        &:hover {
+            color: #1a1a1a;
+        }
+    }
+}
+
