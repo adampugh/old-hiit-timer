@@ -1,3 +1,8 @@
+nav {
+    background: #1a1a1a;
+    color: white;
+}
+
 .navigation-bar__logo {
     display: inline;
 }
@@ -32,18 +37,18 @@
     text-align: center;
     width: 100%;
     display: none;
-    background: white;
+    background: #1a1a1a;
     a {
         display: inline-block;
-        border-top: 1px solid #eaeaeb;
+        border-top: 1px solid grey;
         color: grey;
         margin: 0;
         padding: 2em 0;
         text-decoration: none;
         width: 100%;
         &:hover {
-            background: grey;
-            color: white;
+            // background: grey;
+            color: #f06c25;
             // color: #f06c25;
         }
     }
