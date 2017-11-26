@@ -6,6 +6,7 @@ import HomePage from "./views/homepage/homepage";
 import WorkoutsPage from "./views/workoutspage/workoutspage";
 import CreateWorkoutPage from "./views/createworkoutpage/createworkoutpage";
 import ExercisePage from "./views/exercisepage/exercisepage";
+import StartWorkoutPage from "./views/startworkoutpage/startworkoutpage";
 
 
 class App extends React.Component {
@@ -14,7 +15,8 @@ class App extends React.Component {
             // <HomePage />
             // <WorkoutsPage />
             // <CreateWorkoutPage />
-            <ExercisePage />
+            // <ExercisePage />
+            <StartWorkoutPage />
         )
     };
 };
