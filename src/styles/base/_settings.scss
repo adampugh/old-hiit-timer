@@ -17,8 +17,16 @@ $desktop-breakpoint: 45rem;
     grid-template-columns: 1fr;
 }
 
+
+
+
 @media only screen and (min-width: $desktop-breakpoint) {
     .grid--3to1 {
         grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .grid--2to1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 }

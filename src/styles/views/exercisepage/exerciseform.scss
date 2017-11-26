@@ -1,0 +1,79 @@
+.exerciseform {
+    text-align: center;
+    margin: 4em 0;
+    input {
+        margin-bottom: 1em;
+        padding: .5em;
+        width: 80%;
+    }
+    i {
+        font-size: 5em;
+        margin: 0 .1em .5em .1em;
+    }
+    button {
+        margin: 2em 0;
+    }
+}
+
+
+
+.exerciseform__preview {
+    display: none;
+}
+
+.colourbox {
+    display: inline-block;
+    margin-right: .8em;
+    margin-bottom: .8em;
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+}
+
+.colour-1 {
+    background: linear-gradient(141deg, #dee46d, #eafd39);
+}
+
+.colour-2 {
+    background: linear-gradient(141deg, #f09825, #f28219);
+}
+
+.colour-3 {
+    background: linear-gradient(141deg, #f02525, #e40f0f);
+}
+
+.colour-4 {
+    background: linear-gradient(141deg, #f96cb4, #e40fb9);
+}
+
+.colour-5 {
+    background: linear-gradient(141deg, #c56cf9, #9d0fe4);
+}
+
+.colour-6 {
+    background: linear-gradient(141deg, #485fe1, #0f41e4);
+}
+
+.colour-7 {
+    background: linear-gradient(141deg, #6cf9eb, #0fcfe4);
+}
+
+.colour-8 {
+    background: linear-gradient(141deg, #7ff96c, #5de40f);
+}
+
+
+@media only screen and (min-width: $desktop-breakpoint) {
+    .exerciseform {
+        input {
+            width: 60%;
+        }
+    }
+
+
+    .exerciseform__preview {
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+    }
+}

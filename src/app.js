@@ -5,6 +5,7 @@ import './styles/styles.scss';
 import HomePage from "./views/homepage/homepage";
 import WorkoutsPage from "./views/workoutspage/workoutspage";
 import CreateWorkoutPage from "./views/createworkoutpage/createworkoutpage";
+import ExercisePage from "./views/exercisepage/exercisepage";
 
 
 class App extends React.Component {
@@ -12,7 +13,8 @@ class App extends React.Component {
         return (
             // <HomePage />
             // <WorkoutsPage />
-            <CreateWorkoutPage />
+            // <CreateWorkoutPage />
+            <ExercisePage />
         )
     };
 };
