@@ -1,0 +1,67 @@
+.workoutform {
+    text-align: center;
+}
+
+.workoutform__title {
+    margin-bottom: 4em;
+    input {
+        width: 80%;
+        padding: .5em;
+    }
+}
+
+hr {
+    margin-bottom: 2em;
+}
+
+.workoutform__exercise {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2em;
+}
+
+.workoutform__box {
+    @include boxshadow;
+    background: linear-gradient(141deg, #f09825, #f28219);
+    color: white;
+    border-radius: 10px;
+    padding: .5em 0;
+    h3 {
+        margin: 0;
+    }
+    p {
+        display: inline;
+        padding-right: 1em;
+    }
+    i {
+        display: inline;
+    }
+}
+
+
+.workoutform__break {
+    // border: 1px solid grey;
+    border-radius: 10px;
+    color: grey;
+    padding: .5em 0;
+    margin-top: .5em;
+    h3 {
+        margin: 0;
+    }
+    p {
+        display: inline;
+    }
+}
+
+@media only screen and (min-width: $desktop-breakpoint) {
+    .workoutform__grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .workoutform__title {
+        input {
+            width: 60%;
+        }
+    }
+}
