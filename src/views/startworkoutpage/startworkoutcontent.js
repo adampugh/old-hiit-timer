@@ -8,7 +8,7 @@ export default class StartWorkoutContent extends React.Component {
                     <div className="row">
                     <h1>Jumping Jacks</h1>
                     <h1>00:04:32</h1>
-                    <i class="fa fa-pause" aria-hidden="true"></i>
+                    <i className="fa fa-pause-circle-o" aria-hidden="true"></i>
 
                     <div className="grid--3to1">
                         <div className="startworkout__panel time-elapsed">
