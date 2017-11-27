@@ -15,8 +15,8 @@ class App extends React.Component {
             // <HomePage />
             // <WorkoutsPage />
             // <CreateWorkoutPage />
-            // <ExercisePage />
-            <StartWorkoutPage />
+            <ExercisePage />
+            // <StartWorkoutPage />
         )
     };
 };
