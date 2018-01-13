@@ -12,10 +12,10 @@ import StartWorkoutPage from "./views/startworkoutpage/startworkoutpage";
 class App extends React.Component {
     render() {
         return (
-            // <HomePage />
+            <HomePage />
             // <WorkoutsPage />
             // <CreateWorkoutPage />
-            <ExercisePage />
+            // <ExercisePage />
             // <StartWorkoutPage />
         )
     };

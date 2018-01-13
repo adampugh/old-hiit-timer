@@ -5,7 +5,6 @@ import Banner from "./banner";
 import HomeContent from "./homecontent";
 import Footer from "../footer";
 
-
 export default class LandingPage extends React.Component {
     render() {
         return (
