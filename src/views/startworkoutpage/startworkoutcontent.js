@@ -1,5 +1,6 @@
 import React from "react";
 
+// gut this
 export default class StartWorkoutContent extends React.Component {
     render() {
         return (
