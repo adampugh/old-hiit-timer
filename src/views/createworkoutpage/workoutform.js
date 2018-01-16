@@ -1,6 +1,5 @@
 import React from "react";
 
-
 // gut this - use modal instead
 export default class WorkoutForm extends React.Component {
     render() {
